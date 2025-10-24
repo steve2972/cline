@@ -6,7 +6,7 @@ import type { BalanceResponse, OrganizationBalanceResponse, UserResponse } from 
 import { E2E_MOCK_API_RESPONSES, E2E_REGISTERED_MOCK_ENDPOINTS } from "./api"
 import { ClineDataMock } from "./data"
 
-const E2E_API_SERVER_PORT = 7777
+const E2E_API_SERVER_PORT = process.env.E2E_API_SERVER_PORT ? parseInt(process.env.E2E_API_SERVER_PORT, 10) : 7777
 
 export const MOCK_CLINE_API_SERVER_URL = `http://localhost:${E2E_API_SERVER_PORT}`
 

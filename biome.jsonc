@@ -16,7 +16,7 @@
 		}
 	},
 	"linter": {
-		"enabled": true,
+		"enabled": false,
 		"domains": {
 			"react": "recommended"
 		},
@@ -87,7 +87,7 @@
 		}
 	},
 	"formatter": {
-		"enabled": true,
+		"enabled": false,
 		"indentStyle": "tab",
 		"indentWidth": 4,
 		"lineWidth": 130,
